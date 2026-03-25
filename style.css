@@ -1,3 +1,4 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +23,7 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Layout */
+/* Main layout */
 main {
     padding: 30px;
     display: grid;
@@ -47,10 +48,32 @@ main {
     margin-bottom: 10px;
 }
 
+/* Image Styling */
 .card img {
     width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
+    max-width: 700px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Figure captions */
+figure {
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #666;
 }
 
 /* Footer */
