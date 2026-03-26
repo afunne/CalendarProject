@@ -1,110 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creating a Calendar in Microsoft Project</title>
+    <title>Kalendri loomine Microsoft Projectis</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Inline fallback for sidebar if needed */
+    </style>
 </head>
 <body>
 
-<nav class="navbar">
-    <h2>MS Project Guide</h2>
-    <div class="nav-links">
-        <a href="index.html">Kalender</a>
-        <a href="valem.html">Arvutusväli</a>
-        <a href="diagramm.html">Diagrammid</a>
-    </div>
-</nav>
+<!-- Parempoolne navigeerimismenüü (ruudukujuline kaart, alati nähtav) -->
+<div id="rightSidebar" class="sidebar static-sidebar nav-card">
+    <h3>Navigeerimine</h3>
+    <a href="index.html">Kalender</a>
+    <a href="valem.html">Arvutusväli</a>
+    <a href="diagramm.html">Diagrammid</a>
+</div>
 
 <header>
-    <h1>Microsoft Project Calendar Tutorial</h1>
-    <p>Step-by-step guide to creating and using a calendar</p>
+    <h1>Microsoft Projecti kalendri juhend</h1>
+    <p>Samm-sammuline juhend kalendri loomiseks ja kasutamiseks</p>
 </header>
 
 <main>
 
 <section class="card">
-    <h2>Objective</h2>
+    <h2>Eesmärk</h2>
     <p>
-        This guide explains how to create a new calendar, modify working time,
-        and apply it in <strong>Microsoft Project</strong>.
+        See juhend selgitab, kuidas luua uus kalender, muuta tööaega ja rakendada seda <strong>Microsoft Projectis</strong>.
     </p>
 </section>
 
 <section class="card">
-    <h2>Step 1: Create a New Calendar</h2>
+    <h2>Samm 1: Uue kalendri loomine</h2>
     <ol>
-        <li>Go to <strong>Project</strong> tab</li>
-        <li>Click <strong>Change Working Time</strong></li>
-        <li>Select <strong>Create New Calendar</strong></li>
-        <li>Give your calendar a name (e.g., My Calendar)</li>
-        <li>Click OK</li>
+        <li>Mine <strong>Project</strong> vahekaardile</li>
+        <li>Klõpsa <strong>Muuda tööaega</strong></li>
+        <li>Vali <strong>Loo uus kalender</strong></li>
+        <li>Anna oma kalendrile nimi (nt Minu kalender)</li>
+        <li>Klõpsa OK</li>
     </ol>
     <figure>
-        <img src="images/create-calendar.png" alt="Create calendar screenshot">
-        <figcaption>Figure 1: Creating a new calendar</figcaption>
+        <img src="images/create-calendar.png" alt="Kalendri loomise ekraanipilt">
+        <figcaption>Joonis 1: Uue kalendri loomine</figcaption>
     </figure>
 </section>
 
 <section class="card">
-    <h2>Step 2: Change Working Hours</h2>
+    <h2>Samm 2: Tööaja muutmine</h2>
     <ol>
-        <li>Select a day (e.g., Monday)</li>
-        <li>Click <strong>Details…</strong></li>
-        <li>Set working hours (e.g., 09:00–12:00, 13:00–17:00)</li>
-        <li>Click OK</li>
+        <li>Vali päev (nt esmaspäev)</li>
+        <li>Klõpsa <strong>Detailid…</strong></li>
+        <li>Määra tööajad (nt 09:00–12:00, 13:00–17:00)</li>
+        <li>Klõpsa OK</li>
     </ol>
     <figure>
-        <img src="images/change-hours.png" alt="Change working time screenshot">
-        <figcaption>Figure 2: Changing working hours</figcaption>
+        <img src="images/change-hours.png" alt="Tööaja muutmise ekraanipilt">
+        <figcaption>Joonis 2: Tööaja muutmine</figcaption>
     </figure>
 </section>
 
 <section class="card">
-    <h2>Step 3: Add Special Days (Holidays)</h2>
+    <h2>Samm 3: Eripäevade (pühade) lisamine</h2>
     <ol>
-        <li>Go to <strong>Exceptions</strong> tab</li>
-        <li>Add a holiday (e.g., Christmas)</li>
-        <li>Select the date range</li>
-        <li>Click OK</li>
+        <li>Mine <strong>Erandid</strong> vahekaardile</li>
+        <li>Lisa püha (nt jõulud)</li>
+        <li>Vali kuupäevavahemik</li>
+        <li>Klõpsa OK</li>
     </ol>
     <figure>
-        <img src="images/holidays.png" alt="Add holidays screenshot">
-        <figcaption>Figure 3: Adding holidays or special days</figcaption>
+        <img src="images/holidays.png" alt="Pühade lisamise ekraanipilt">
+        <figcaption>Joonis 3: Pühade või eripäevade lisamine</figcaption>
     </figure>
 </section>
 
 <section class="card">
-    <h2>Step 4: Use the Calendar in a Project</h2>
+    <h2>Samm 4: Kalendri kasutamine projektis</h2>
     <ol>
-        <li>Go to <strong>Project Information</strong></li>
-        <li>Select your new calendar from the dropdown</li>
-        <li>Click OK</li>
+        <li>Mine <strong>Projekti teave</strong></li>
+        <li>Vali oma uus kalender rippmenüüst</li>
+        <li>Klõpsa OK</li>
     </ol>
     <figure>
-        <img src="images/use-calendar.png" alt="Use calendar screenshot">
-        <figcaption>Figure 4: Applying the calendar to a project</figcaption>
+        <img src="images/use-calendar.png" alt="Kalendri kasutamise ekraanipilt">
+        <figcaption>Joonis 4: Kalendri rakendamine projektile</figcaption>
     </figure>
 </section>
 
 <section class="card">
-    <h2>How the Calendar Affects Scheduling</h2>
+    <h2>Kuidas kalender mõjutab ajakava</h2>
     <p>
-        Once applied, the calendar controls task scheduling:
+        Kui kalender on rakendatud, kontrollib see ülesannete ajastamist:
         <ul>
-            <li>Tasks will only be scheduled during working hours</li>
-            <li>Non-working days (weekends, holidays) are skipped</li>
-            <li>Task durations adjust automatically if working hours change</li>
+            <li>Ülesandeid ajastatakse ainult tööaegadel</li>
+            <li>Töövälised päevad (nädalavahetused, pühad) jäetakse vahele</li>
+            <li>Ülesannete kestus muutub automaatselt, kui tööaeg muutub</li>
         </ul>
-        Auto Scheduled tasks recalc automatically based on the calendar.
+        Automaatse ajastusega ülesanded arvutatakse automaatselt kalendri põhjal.
     </p>
 </section>
 
 </main>
 
 <footer>
-    <p>Created for assignment • 2026</p>
+    <p>Loodud ülesande jaoks • 2026</p>
 </footer>
 
 </body>
