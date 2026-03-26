@@ -8,13 +8,19 @@
 /* Navbar */
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* pushes items apart */
     align-items: center;
     padding: 15px 30px;
     background: white;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
+/* Move links to the right */
+.nav-links {
+    margin-left: auto;
+}
+
+/* Style links */
 .nav-links a {
     margin-left: 20px;
     text-decoration: none;
