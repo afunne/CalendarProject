@@ -14,11 +14,8 @@ Veebileht selgitab, kuidas kasutada ProjectLibre programmi projekti ajakava hald
 
 See leht keskendub ProjectLibre kalendri seadistamisele ja muutmisele. Kasutaja saab samm-sammult juhiseid, kuidas avada kalendrit, muuta tööaega, määrata mitte-tööpäevi ning lisada eripäevi. Iga samm on selgitatud loetavalt ja praktiliste näidetega.
 
-> [!TIP] Näpunäide
+> [!TIP]
 > Kui muudate tööaega, kontrollige kindlasti, et kõik projektis olevad ülesanded kasutaksid õiget kalendrit!
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
 
 **Põhifunktsioonid:**
 - Kalendri avamine ja valimine
@@ -41,7 +38,7 @@ See leht keskendub ProjectLibre kalendri seadistamisele ja muutmisele. Kasutaja 
 - Muuda tööaega ja määra eripäevad
 - Salvesta muudatused
 
-> [!IMPORTANT] Oluline
+> [!IMPORTANT]
 > Kui lisate eripäevi, veenduge, et need ei kattuks juba määratud pühadega – see võib põhjustada ajakavas vigu!
 
 ---
@@ -70,7 +67,7 @@ Diagrammide leht tutvustab, kuidas ProjectLibre abil visualiseerida projekti aja
 </section>
 ```
 
-> [!WARNING] Hoiatus
+> [!WARNING]
 > Kui ülesandeid ei ole õigesti ajastatud, võib diagramm olla eksitav – kontrollige alati, et kõik kuupäevad oleksid õiged!
 
 **Näide markdowni tabelist, kuidas ülesandeid planeerida:**
