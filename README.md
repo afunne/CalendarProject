@@ -26,7 +26,7 @@ Kasutasin järjestatud loetelusid:
 
 ```html
 <ol>
-  <li>Mine View → Gantt</li>
+  <li>Mine View -> Gantt</li>
   <li>Vaata ajakava</li>
 </ol>
 ```
