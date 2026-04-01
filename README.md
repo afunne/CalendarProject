@@ -104,5 +104,3 @@ Kasutasin eraldi CSS faili:
 * kujundasin kaardid (`.card`)
 * lisasin hover efektid
 * kujundasin navigeerimismenüü
-
----
