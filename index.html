@@ -3,109 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalendri loomine Microsoft Projectis</title>
+    <title>ProjectLibre Kalender</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Inline fallback for sidebar if needed */
-    </style>
 </head>
 <body>
 
-<!-- Parempoolne navigeerimismenüü (ruudukujuline kaart, alati nähtav) -->
-<div id="rightSidebar" class="sidebar static-sidebar nav-card">
-    <h3>Navigeerimine</h3>
-    <a href="index.html">Kalender</a>
-    <a href="valem.html">Arvutusväli</a>
-    <a href="diagramm.html">Diagrammid</a>
-</div>
+<nav class="navbar">
+    <h2>ProjectLibre Guide</h2>
+    <div class="nav-links">
+        <a href="index.html">Kalender</a>
+        <a href="diagramm.html">Diagrammid</a>
+    </div>
+</nav>
 
 <header>
-    <h1>Microsoft Projecti kalendri juhend</h1>
-    <p>Samm-sammuline juhend kalendri loomiseks ja kasutamiseks</p>
+    <h1>ProjectLibre Kalenderi Kasutamine</h1>
+    <p>Juhend tööaja ja kalendri seadistamiseks</p>
 </header>
 
 <main>
 
-<section class="card">
+<div class="card">
     <h2>Eesmärk</h2>
     <p>
-        See juhend selgitab, kuidas luua uus kalender, muuta tööaega ja rakendada seda <strong>Microsoft Projectis</strong>.
+        Selles juhendis näitan, kuidas muuta tööaega ja lisada eripäevi programmis ProjectLibre.
     </p>
-</section>
+</div>
 
-<section class="card">
-    <h2>Samm 1: Uue kalendri loomine</h2>
+<div class="card">
+    <h2>Kalendri avamine</h2>
     <ol>
-        <li>Mine <strong>Project</strong> vahekaardile</li>
-        <li>Klõpsa <strong>Muuda tööaega</strong></li>
-        <li>Vali <strong>Loo uus kalender</strong></li>
-        <li>Anna oma kalendrile nimi (nt Minu kalender)</li>
-        <li>Klõpsa OK</li>
+        <li>Ava ProjectLibre</li>
+        <li>Mine Project → Project Information</li>
+        <li>Vali Change Working Time</li>
     </ol>
-    <figure>
-        <img src="images/create-calendar.png" alt="Kalendri loomise ekraanipilt">
-        <figcaption>Joonis 1: Uue kalendri loomine</figcaption>
-    </figure>
-</section>
 
-<section class="card">
-    <h2>Samm 2: Tööaja muutmine</h2>
+    <figure>
+        <img src="images/calendar_open.png">
+        <figcaption>Figure 1: Kalendri avamine</figcaption>
+    </figure>
+</div>
+
+<div class="card">
+    <h2>Tööaja muutmine</h2>
     <ol>
         <li>Vali päev (nt esmaspäev)</li>
-        <li>Klõpsa <strong>Detailid…</strong></li>
-        <li>Määra tööajad (nt 09:00–12:00, 13:00–17:00)</li>
-        <li>Klõpsa OK</li>
+        <li>Määra tööaeg (08:00–12:00, 13:00–17:00)</li>
     </ol>
-    <figure>
-        <img src="images/change-hours.png" alt="Tööaja muutmise ekraanipilt">
-        <figcaption>Joonis 2: Tööaja muutmine</figcaption>
-    </figure>
-</section>
 
-<section class="card">
-    <h2>Samm 3: Eripäevade (pühade) lisamine</h2>
+    <figure>
+        <img src="images/working_time.png">
+        <figcaption>Figure 2: Tööaja muutmine</figcaption>
+    </figure>
+</div>
+
+<div class="card">
+    <h2>Mitte-tööpäevad</h2>
     <ol>
-        <li>Mine <strong>Erandid</strong> vahekaardile</li>
-        <li>Lisa püha (nt jõulud)</li>
-        <li>Vali kuupäevavahemik</li>
-        <li>Klõpsa OK</li>
+        <li>Vali päev (nt laupäev)</li>
+        <li>Määra see mitte-tööpäevaks</li>
     </ol>
-    <figure>
-        <img src="images/holidays.png" alt="Pühade lisamise ekraanipilt">
-        <figcaption>Joonis 3: Pühade või eripäevade lisamine</figcaption>
-    </figure>
-</section>
 
-<section class="card">
-    <h2>Samm 4: Kalendri kasutamine projektis</h2>
+    <figure>
+        <img src="images/nonworking_day.png">
+        <figcaption>Figure 3: Mitte-tööpäeva määramine</figcaption>
+    </figure>
+</div>
+
+<div class="card">
+    <h2>Eripäevade lisamine</h2>
     <ol>
-        <li>Mine <strong>Projekti teave</strong></li>
-        <li>Vali oma uus kalender rippmenüüst</li>
-        <li>Klõpsa OK</li>
+        <li>Lisa erand (nt puhkus või püha)</li>
+        <li>Määra kuupäev</li>
     </ol>
-    <figure>
-        <img src="images/use-calendar.png" alt="Kalendri kasutamise ekraanipilt">
-        <figcaption>Joonis 4: Kalendri rakendamine projektile</figcaption>
-    </figure>
-</section>
 
-<section class="card">
-    <h2>Kuidas kalender mõjutab ajakava</h2>
+    <figure>
+        <img src="images/exception_holiday.png">
+        <figcaption>Figure 4: Eripäeva lisamine</figcaption>
+    </figure>
+</div>
+
+<div class="card">
+    <h2>Mõju ajakavale</h2>
     <p>
-        Kui kalender on rakendatud, kontrollib see ülesannete ajastamist:
-        <ul>
-            <li>Ülesandeid ajastatakse ainult tööaegadel</li>
-            <li>Töövälised päevad (nädalavahetused, pühad) jäetakse vahele</li>
-            <li>Ülesannete kestus muutub automaatselt, kui tööaeg muutub</li>
-        </ul>
-        Automaatse ajastusega ülesanded arvutatakse automaatselt kalendri põhjal.
+        Kui päev on määratud mitte-tööpäevaks, ei planeeri ProjectLibre sinna ülesandeid.
+        See võib nihutada kogu projekti ajakava.
     </p>
-</section>
+</div>
 
 </main>
 
 <footer>
-    <p>Loodud ülesande jaoks • 2026</p>
+    <p>2026 ProjectLibre Assignment</p>
 </footer>
 
 </body>
