@@ -2,105 +2,71 @@
 
 ## Eesmärk
 
-Selle projekti eesmärk oli luua õppeveebileht, kasutades HTML ja CSS keelt.
-Fookus oli erinevate HTML elementide kasutamisel.
+Selle veebilehe eesmärk on selgitada, kuidas kasutada ProjectLibre programmi projekti ajakava haldamiseks.
 
 ---
 
-## Kasutatud HTML elemendid
+## Veebilehe sisu
 
-### Pealkirjad (Headings)
+### Kalender
 
-Kasutasin erinevaid pealkirju:
+Lehel on juhend, kuidas muuta projekti tööaega ja kalendrit.
+Kirjeldan, kuidas:
 
-* `<h1>` – lehe pealkiri
-* `<h2>` – alapealkirjad
-
-Need aitavad struktureerida sisu.
-
----
-
-### Loetelud (Lists)
-
-Kasutasin järjestatud loetelusid:
-
-```html
-<ol>
-  <li>Mine View -> Gantt</li>
-  <li>Vaata ajakava</li>
-</ol>
-```
-
-See aitab samme selgelt esitada.
+* avada kalendri seaded
+* muuta tööpäevi ja tööaega
+* määrata mitte-tööpäevi
+* lisada eripäevi (nt puhkus või pühad)
 
 ---
 
-### Pildid (Images)
+### Diagrammid
 
-Lisatud pildid koos kirjeldustega:
+Teises osas selgitan, kuidas ProjectLibre’is visualiseerida projekti ajakava.
 
-```html
-<img src="images/gantt_view.png" alt="Gantt diagramm">
-```
+Kirjeldan:
 
-Kasutasin ka `<figure>` ja `<figcaption>` elemente.
-
----
-
-### Lingid (Links)
-
-Navigeerimiseks kasutasin linke:
-
-```html
-<a href="index.html">Kalender</a>
-```
-
-Need võimaldavad liikuda lehtede vahel.
+* Gantt diagrammi kasutamist
+* kuidas näha ülesannete ajakava
+* kuidas töö jaotust kuvada
 
 ---
 
-### Navigatsioonimenüü
+### Ressursside vaade
 
-Lõin menüü lehe ülaossa:
+Lisaks on näidatud, kuidas vaadata ressursside kasutust:
 
-```html
-<nav>
-  <a href="index.html">Kalender</a>
-  <a href="diagramm.html">Diagrammid</a>
-</nav>
-```
+* kes teeb millist tööd
+* kui palju aega kulub
+* kuidas töö on jaotatud
 
 ---
 
-### Sisukord (Navigation)
+### Pildid
 
-Menüü toimib sisukorrana, mis aitab kasutajal kiiresti liikuda erinevate lehtede vahel.
+Lehel on lisatud pildid, mis näitavad:
 
----
+* kalendri seadistamist
+* tööaja muutmist
+* diagramme ja vaateid
 
-### Tabel (Table)
-
-Tabeli abil saab kuvada andmeid:
-
-```html
-<table>
-  <tr>
-    <th>Ülesanne</th>
-    <th>Kestus</th>
-  </tr>
-  <tr>
-    <td>Planeerimine</td>
-    <td>3 päeva</td>
-  </tr>
-</table>
-```
+Pildid aitavad paremini aru saada, kuidas programm töötab.
 
 ---
 
-## CSS kasutamine
+## Navigeerimine
 
-Kasutasin eraldi CSS faili:
+Veebilehel on menüü, mis võimaldab liikuda:
 
-* kujundasin kaardid (`.card`)
-* lisasin hover efektid
-* kujundasin navigeerimismenüü
+* kalendri juhendi juurde
+* diagrammide lehele
+
+---
+
+## Kokkuvõte
+
+Selle veebilehe abil saab kasutaja:
+
+* õppida ProjectLibre põhifunktsioone
+* mõista, kuidas ajakava töötab
+* näha praktilisi näiteid piltide kaudu
