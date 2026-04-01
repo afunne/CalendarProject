@@ -7,57 +7,50 @@
 </head>
 <body>
 
-<!-- Right Sidebar Navigation (now always visible, styled as a square card) -->
-<div id="rightSidebar" class="sidebar static-sidebar nav-card">
-    <h3>Navigeerimine</h3>
-    <a href="index.html">Kalender</a>
-    <a href="valem.html">Arvutusväli</a>
-    <a href="diagramm.html">Diagrammid</a>
-</div>
-
-<header>
-    <h1>Diagrammid</h1>
-    <p>Diagrammid aitavad visualiseerida projekti andmeid.</p>
-</header>
+<nav class="navbar">
+    <h2>ProjectLibre Guide</h2>
+    <div class="nav-links">
+        <a href="index.html">Kalender</a>
+        <a href="diagramm.html">Diagrammid</a>
+    </div>
+</nav>
 
 <main>
 
-<section class="card">
-    <h2>Diagrammide loomine</h2>
+<div class="card">
+    <h2>📈 Gantt diagramm</h2>
     <p>
-        Diagrammid aitavad visualiseerida projekti andmeid.
-        Kasutasin diagrammi, et näha ülesannete kestusi graafiliselt.
+        ProjectLibre kasutab Gantt diagrammi, et kuvada projekti ajakava visuaalselt.
     </p>
 
     <ol>
-        <li>Mine <strong>Report</strong> vahekaardile</li>
-        <li>Vali <strong>New Report</strong></li>
-        <li>Lisa <strong>Chart</strong></li>
-        <li>Kohanda diagrammi andmeid</li>
+        <li>Mine View → Gantt</li>
+        <li>Vaata ülesannete ajakava</li>
     </ol>
 
     <figure>
-        <img src="images/create_chart.png" alt="Diagrammi loomine">
-        <figcaption>Figure 8: Diagrammi loomine Report vaates</figcaption>
+        <img src="images/5_gantt_view.png">
+        <figcaption>Figure 5: Gantt diagramm</figcaption>
     </figure>
+</div>
+
+<div class="card">
+    <h2>Ressursside vaade</h2>
+    <p>
+        Ressursside vaade näitab, kuidas töö on jaotatud.
+    </p>
+
+    <ol>
+        <li>Mine View → Resource Usage</li>
+    </ol>
 
     <figure>
-        <img src="images/create_result.png" alt="Diagrammi tulemus">
-        <figcaption>Figure 9: Valmis diagramm projekti andmetega</figcaption>
+        <img src="images/6_resource_view.png">
+        <figcaption>Figure 6: Ressursside kasutus</figcaption>
     </figure>
-
-</section>
+</div>
 
 </main>
 
-<!-- Add at the end of body: Sidebar JS -->
-<script>
-function openSidebar() {
-    document.getElementById("rightSidebar").style.right = "0";
-}
-function closeSidebar() {
-    document.getElementById("rightSidebar").style.right = "-300px";
-}
-</script>
 </body>
 </html>
