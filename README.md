@@ -1,72 +1,62 @@
-# ProjectLibre veebileht
+# Microsoft Project veebileht
 
 ## Eesmärk
 
-Selle veebilehe eesmärk on selgitada, kuidas kasutada ProjectLibre programmi projekti ajakava haldamiseks.
+Veebileht selgitab, kuidas kasutada Microsoft Project programmi kalendri ja ajakava haldamiseks.
 
 ---
 
-## Veebilehe sisu
+### Lehtede kirjeldus
 
-### Kalender
+### index.html – Kalendri loomine
 
-Lehel on juhend, kuidas muuta projekti tööaega ja kalendrit.
-Kirjeldan, kuidas:
+Sellel lehel selgitan, kuidas luua uus kalender Microsoft Projectis.
 
-* avada kalendri seaded
-* muuta tööpäevi ja tööaega
-* määrata mitte-tööpäevi
-* lisada eripäevi (nt puhkus või pühad)
+Sisu:
 
----
+* sammud uue kalendri loomiseks
+* tööaja muutmine
+* mitte-tööpäevade määramine
+* kalendri kasutamine projektis
 
-### Diagrammid
-
-Teises osas selgitan, kuidas ProjectLibre’is visualiseerida projekti ajakava.
-
-Kirjeldan:
-
-* Gantt diagrammi kasutamist
-* kuidas näha ülesannete ajakava
-* kuidas töö jaotust kuvada
+Lisatud on pildid, mis näitavad iga sammu.
 
 ---
 
-### Ressursside vaade
+### valem.html – Arvutusväli
 
-Lisaks on näidatud, kuidas vaadata ressursside kasutust:
+Sellel lehel kirjeldan arvutusväljade kasutamist.
 
-* kes teeb millist tööd
-* kui palju aega kulub
-* kuidas töö on jaotatud
+Sisu:
+
+* uue veeru lisamine
+* valemi sisestamine
+* tulemuse kuvamine tabelis
+
+Pildid aitavad mõista, kuidas arvutused toimivad.
 
 ---
 
-### Pildid
+### diagramm.html – Diagrammid
 
-Lehel on lisatud pildid, mis näitavad:
+Sellel lehel selgitan diagrammide kasutamist.
 
-* kalendri seadistamist
-* tööaja muutmist
-* diagramme ja vaateid
+Sisu:
 
-Pildid aitavad paremini aru saada, kuidas programm töötab.
+* diagrammi loomine
+* andmete visualiseerimine
+* projekti ajakava graafiline esitamine
+
+Lisatud on näited diagrammidest.
 
 ---
 
 ## Navigeerimine
 
-Veebilehel on menüü, mis võimaldab liikuda:
-
-* kalendri juhendi juurde
-* diagrammide lehele
+Lehel on menüü, mis võimaldab liikuda kõigi kolme lehe vahel.
 
 ---
 
 ## Kokkuvõte
 
-Selle veebilehe abil saab kasutaja:
-
-* õppida ProjectLibre põhifunktsioone
-* mõista, kuidas ajakava töötab
-* näha praktilisi näiteid piltide kaudu
+Veebileht annab ülevaate Microsoft Projecti põhifunktsioonidest ning aitab kasutajal mõista projekti ajakava koostamist.
