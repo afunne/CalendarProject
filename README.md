@@ -10,6 +10,8 @@ Veebileht selgitab, kuidas kasutada ProjectLibre programmi projekti ajakava hald
 
 ### index.html – Kalender
 
+<img width="1440" height="703" alt="{7F190A31-B5CA-4DAB-BC65-FFB8C678F8DC}" src="https://github.com/user-attachments/assets/63b2723a-4ae1-4b5e-bb4f-0b92b19acaa2" />
+
 See leht keskendub ProjectLibre kalendri seadistamisele ja muutmisele. Kasutaja saab samm-sammult juhiseid, kuidas avada kalendrit, muuta tööaega, määrata mitte-tööpäevi ning lisada eripäevi. Iga samm on selgitatud loetavalt ja praktiliste näidetega.
 
 **Põhifunktsioonid:**
@@ -36,6 +38,8 @@ See leht keskendub ProjectLibre kalendri seadistamisele ja muutmisele. Kasutaja 
 ---
 
 ### diagramm.html – Diagrammid
+
+<img width="1440" height="707" alt="{3298F44F-18C1-4C48-A1C7-0A4256E47404}" src="https://github.com/user-attachments/assets/9ab104cc-3d73-430a-a927-34c8e2bea962" />
 
 Diagrammide leht tutvustab, kuidas ProjectLibre abil visualiseerida projekti ajakava ja ülesannete kestusi. Lehel on juhised Gantt diagrammi kasutamiseks, ülesannete ajakava kuvamiseks ning ressursside vaate kasutamiseks. Lisaks on toodud näiteid, kuidas diagrammid aitavad projekti paremini planeerida ja jälgida.
 
