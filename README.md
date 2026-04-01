@@ -2,70 +2,61 @@
 
 ## Eesmärk
 
-Selle veebilehe eesmärk on selgitada, kuidas kasutada Microsoft Project programmi projekti ajakava planeerimiseks.
+Veebileht selgitab, kuidas kasutada Microsoft Project programmi kalendri ja ajakava haldamiseks.
 
 ---
 
-## Veebilehe sisu
+## Lehtede kirjeldus
 
-### Uue kalendri loomine
+### index.html – Kalendri loomine
 
-Lehel on juhend, kuidas luua uus kalender Microsoft Projectis.
-Kirjeldan, kuidas:
+Sellel lehel selgitan, kuidas luua uus kalender Microsoft Projectis.
 
-* avada tööaja muutmise aken
-* luua uus kalender
-* määrata tööpäevad ja tööaeg
-* lisada eripäevi (nt pühad)
+Sisu:
 
----
+* sammud uue kalendri loomiseks
+* tööaja muutmine
+* mitte-tööpäevade määramine
+* kalendri kasutamine projektis
 
-### Tööaja muutmine
-
-Selgitan, kuidas muuta tööaega:
-
-* muuta tööpäevi
-* määrata töö- ja mitte-tööajad
-* kohandada tööaega vastavalt projektile
+Lisatud on pildid, mis näitavad iga sammu.
 
 ---
 
-### Kalendri kasutamine projektis
+### valem.html – Arvutusväli
 
-Kirjeldan, kuidas kalender mõjutab projekti:
+Sellel lehel kirjeldan arvutusväljade kasutamist.
 
-* ülesannete ajastamist
-* projekti kestust
-* ajakava muutumist
+Sisu:
 
----
+* uue veeru lisamine
+* valemi sisestamine
+* tulemuse kuvamine tabelis
 
-### Pildid
-
-Lehel on lisatud pildid, mis näitavad:
-
-* kalendri loomist
-* tööaja muutmist
-* kalendri rakendamist
-
-Pildid aitavad paremini mõista, kuidas programm töötab.
+Pildid aitavad mõista, kuidas arvutused toimivad.
 
 ---
 
-### Navigeerimine
+### diagramm.html – Diagrammid
 
-Veebilehel on menüü, mis võimaldab liikuda erinevate teemade vahel:
+Sellel lehel selgitan diagrammide kasutamist.
 
-* kalendri loomine
-* arvutusväljad
-* diagrammid
+Sisu:
+
+* diagrammi loomine
+* andmete visualiseerimine
+* projekti ajakava graafiline esitamine
+
+Lisatud on näited diagrammidest.
+
+---
+
+## Navigeerimine
+
+Lehel on menüü, mis võimaldab liikuda kõigi kolme lehe vahel.
 
 ---
 
 ## Kokkuvõte
 
-Selle veebilehe abil saab kasutaja:
-
-* õppida Microsoft Projecti põhifunktsioone
-* mõista, kuidas kalender mõjutab ajakava
-* kasutada programmi efektiivsemalt
+Veebileht annab ülevaate Microsoft Projecti põhifunktsioonidest ning aitab kasutajal mõista projekti ajakava koostamist.
