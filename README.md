@@ -17,6 +17,9 @@ See leht keskendub ProjectLibre kalendri seadistamisele ja muutmisele. Kasutaja 
 > [!TIP] Näpunäide
 > Kui muudate tööaega, kontrollige kindlasti, et kõik projektis olevad ülesanded kasutaksid õiget kalendrit!
 
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
 **Põhifunktsioonid:**
 - Kalendri avamine ja valimine
 - Tööaja muutmine (nt tööpäevade ja -tundide seadistamine)
