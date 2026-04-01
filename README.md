@@ -14,6 +14,9 @@ Veebileht selgitab, kuidas kasutada ProjectLibre programmi projekti ajakava hald
 
 See leht keskendub ProjectLibre kalendri seadistamisele ja muutmisele. Kasutaja saab samm-sammult juhiseid, kuidas avada kalendrit, muuta tööaega, määrata mitte-tööpäevi ning lisada eripäevi. Iga samm on selgitatud loetavalt ja praktiliste näidetega.
 
+> [!TIP] Näpunäide
+> Kui muudate tööaega, kontrollige kindlasti, et kõik projektis olevad ülesanded kasutaksid õiget kalendrit!
+
 **Põhifunktsioonid:**
 - Kalendri avamine ja valimine
 - Tööaja muutmine (nt tööpäevade ja -tundide seadistamine)
@@ -35,6 +38,9 @@ See leht keskendub ProjectLibre kalendri seadistamisele ja muutmisele. Kasutaja 
 - Muuda tööaega ja määra eripäevad
 - Salvesta muudatused
 
+> [!IMPORTANT] Oluline
+> Kui lisate eripäevi, veenduge, et need ei kattuks juba määratud pühadega – see võib põhjustada ajakavas vigu!
+
 ---
 
 ### diagramm.html – Diagrammid
@@ -42,6 +48,9 @@ See leht keskendub ProjectLibre kalendri seadistamisele ja muutmisele. Kasutaja 
 <img width="1440" height="707" alt="{3298F44F-18C1-4C48-A1C7-0A4256E47404}" src="https://github.com/user-attachments/assets/9ab104cc-3d73-430a-a927-34c8e2bea962" />
 
 Diagrammide leht tutvustab, kuidas ProjectLibre abil visualiseerida projekti ajakava ja ülesannete kestusi. Lehel on juhised Gantt diagrammi kasutamiseks, ülesannete ajakava kuvamiseks ning ressursside vaate kasutamiseks. Lisaks on toodud näiteid, kuidas diagrammid aitavad projekti paremini planeerida ja jälgida.
+
+> [!NOTE] Märkus
+> Gantt diagramm annab kiire ülevaate kogu projekti ajakavast ja aitab tuvastada võimalikke kattuvusi või viivitusi.
 
 **Põhifunktsioonid:**
 - Gantt diagrammi loomine ja kohandamine
@@ -57,6 +66,9 @@ Diagrammide leht tutvustab, kuidas ProjectLibre abil visualiseerida projekti aja
   <p>Gantt diagramm võimaldab ülesannete ajakava visuaalselt jälgida.</p>
 </section>
 ```
+
+> [!WARNING] Hoiatus
+> Kui ülesandeid ei ole õigesti ajastatud, võib diagramm olla eksitav – kontrollige alati, et kõik kuupäevad oleksid õiged!
 
 **Näide markdowni tabelist, kuidas ülesandeid planeerida:**
 
@@ -79,6 +91,9 @@ Veebilehel on menüü, mis võimaldab liikuda erinevate lehtede vahel. Menüüd 
   <a href="diagramm.html">Diagrammid</a>
 </nav>
 ```
+
+> [!TIP] Näpunäide
+> Kasutage navigeerimismenüüd, et kiiresti liikuda erinevate funktsioonide ja lehtede vahel.
 
 ---
 
