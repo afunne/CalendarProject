@@ -22,7 +22,7 @@ Sisu:
 * mitte-tööpäevade määramine
 * kalendri kasutamine projektis
 
-> [!IMPORTANT]
+> [!NOTE]
 > Lisatud on pildid, mis näitavad iga sammu.
 
 ---
@@ -39,7 +39,7 @@ Sisu:
 * valemi sisestamine
 * tulemuse kuvamine tabelis
 
-> [!IMPORTANT]
+> [!NOTE]
 > Pildid aitavad mõista, kuidas arvutused toimivad.
 
 ---
@@ -56,7 +56,7 @@ Sisu:
 * andmete visualiseerimine
 * projekti ajakava graafiline esitamine
 
-> [!IMPORTANT]
+> [!NOTE]
 > Lisatud on näited diagrammidest.
 
 ---
